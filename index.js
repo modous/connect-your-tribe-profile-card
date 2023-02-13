@@ -21,6 +21,12 @@ app.get('/', function (req, res) {
   res.render('index', data)
 })
 
+//maakt een route naar de about pagina
+app.get('/about', function (req, res) {
+  // res.send('Hello World!')
+  res.render('about', data)
+})
+
 // Stel het poortnummer in waar express op gaat luisteren
 app.set('port', process.env.PORT || 8000)
 
