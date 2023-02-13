@@ -1,91 +1,45 @@
 
-html {
-  height:100vh;
+:root{
+  
 }
 body {
-  margin-top: 100px;
-  height:100vh;
+  margin-top: 80px;
   font-family:'Courier New', Courier, monospace;
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#030303;
+  color:gold;
 }
 
 article {
   display:flex;
   flex-direction:column;
   justify-content:flex-end;
-  background: rgb(245, 246, 246);
-  background: linear-gradient(0deg, rgb(255, 255, 255) 40%, #a2a2c6 100%);
+  background: black;
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
   transition:5s;
 }
 img {
-  height: auto;
-  width:8em;
-  max-height: 14em;
+  width:20em;
+  max-height: 20em;
   border-radius:20em;
-  border:5px solid #fff;
-  box-shadow:0 0 2px 2px rgba(0,0,0,.2);
-  position:static;
+  border:2px solid gold;
+  margin-right: 10px;
+  margin-left: 30px;
   margin-top:1rem;
-  margin-left: 5%;
-}
-
-.div{
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 25px;
-  width: 500px;
   
 }
 
-#welcomeDiv{
-  transform: scaleY(0);
-  height: 0;
-  transition: all 1s;
-}
-
-#welcomeDiv.visible {
-transform: scaleY(1);
-height: 100%;
-opacity: 1;
-margin-left: 7%;
+.naam-image{
+  display: flex;
+  flex-direction: row;
 }
 
 .naam{
-  text-align: center;
-  margin-top: 22%;
-  margin-left: 15%;
-}
-.leeftijd{
-   text-align: right;
+  margin-left: 20px;
+  margin-top: 120px;
+  font-size: 30px;
 }
 
-dt{
-  margin-top: 40px;
-}
-.zonderpunt{
-  list-style-type: none;
-}
-
-.socials{
-  list-style-type:circle;
-}
-
-dl{
-  margin-left: 5%;
-}
-
-.button{
-  margin-left: 20%;
-  transition: 2s;
-  
-}
-.info{
-  text-align: right;
-  width: 300px;
-}
