@@ -23,7 +23,7 @@ app.get('/', function (req, res) {
 
 //maakt een route naar de about pagina
 app.get('/about', function (req, res) {
-  // res.send('Hello World!')
+  // res.send('Hello World!') 
   res.render('about', data)
 })
 

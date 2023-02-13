@@ -4,16 +4,13 @@
 <section>
   <article>
     <nav>
-      <ul>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-      </ul>
+        <ul>
+          <li class="navigatie"><a href="/">Home</a></li>
+          <li class="navigatie"><a href="/about">About</a></li>
+        </ul>
     </nav>
-    <article class="naam-image">
-      <h2 class="naam"><%= member.name %> <%= member.surname %></h2>  
-      <img src="<%= member.avatar %>" alt="Creative Coder">
-    </article>
-        <p>FDND <%= member.role %></p>
+
+        <p>FDND <%= member.bio.html %></p>
         <p>Woonplaats: Nieuw-Vennep</p>
         <p>Geboren op: 02/11/1999</p>
  

@@ -22,8 +22,7 @@ article {
   transition:5s;
 }
 img {
-  width:20em;
-  max-height: 20em;
+  width:15em;
   border-radius:20em;
   border:2px solid gold;
   margin-right: 10px;
@@ -35,11 +34,13 @@ img {
 .naam-image{
   display: flex;
   flex-direction: row;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .naam{
-  margin-left: 20px;
-  margin-top: 100px;
+ 
+  margin-top: 60px;
   font-size: 30px;
 }
 
@@ -47,3 +48,24 @@ img {
   margin-left: 20px;
 }
 
+.navigatie{
+  padding: 10px;
+  background-color: gold;
+  list-style-type: none;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight:600;
+}
+
+
+nav > ul{
+  display: flex;
+  justify-content: left;
+  margin-right: 20px;
+}
