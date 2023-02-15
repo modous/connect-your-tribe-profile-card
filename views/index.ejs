@@ -1,7 +1,6 @@
 <%- include('./partials/head') %>
 
 
-<section>
   <article>
     <nav>
       <ul>
@@ -10,17 +9,16 @@
       </ul>
     </nav>
 
-    <article class="naam-image">
-      <h2 class="naam"><%= member.name %> <%= member.surname %></h2>  
+    <section class="naam-image">
+      <h1 class="naam"><%= member.name %> <%= member.surname %></h1>  
       <img src="<%= member.avatar %>" alt="Creative Coder">
-    </article>
-    <article class="beschrijving">
+    </section>
+    <section class="beschrijving">
         <p>FDND <%= member.role %></p>
         <p>Woonplaats: Nieuw-Vennep</p>
         <p>Geboren op: 02/11/1999</p>
-      </article>
+      </section>
   </article>
-</section>
   
 
   <script src="/index.js"></script>

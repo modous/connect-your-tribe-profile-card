@@ -3,31 +3,33 @@
   
 }
 body {
-  margin-top: 80px;
   font-family:'Courier New', Courier, monospace;
   display:flex;
   justify-content:center;
   align-items:center;
   color:gold;
+  height: 100vh;
+  height: 100svh;
+  width: 100vw;
+  width: 100svw;
 }
 
 article {
   display:flex;
   flex-direction:column;
-  justify-content:flex-end;
   background: black;
+  height: 80vh;
+  width: 60vw;
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
-  transition:5s;
+  overflow: hidden;
 }
 img {
-  width:15em;
+  width:13em;
   border-radius:20em;
   border:2px solid gold;
-  margin-right: 10px;
-  margin-left: 30px;
-  margin-top:1rem;
+margin: 1.5rem;
   
 }
 
@@ -38,7 +40,7 @@ img {
   gap: 1rem;
 }
 
-.naam{
+h1 {
  
   margin-top: 60px;
   font-size: 30px;
