@@ -1,24 +1,42 @@
 <%- include('./partials/head') %>
 
-
 <section>
-  <article>
+  <article class="about-article">
     <nav>
-        <ul>
-          <li class="navigatie"><a href="/">Home</a></li>
-          <li class="navigatie"><a href="/about">About</a></li>
-        </ul>
+      <ul>
+        <li id="colorchange" class="navigatie button"><a href="/">Home</a></li>
+        <li id="colorchange" class="navigatie button"><a href="/about">About</a></li>
+      </ul>
     </nav>
 
-        <p>FDND <%= member.bio.html %></p>
-        <p>Woonplaats: Nieuw-Vennep</p>
-        <p>Geboren op: 02/11/1999</p>
- 
+    <article class="content-about">
+      <h1 class="kopje">About</h1>
+      <p>
+        Ik volg de opleiding Frontend & Desgin en werk ernaast als IT support
+        via een detacheerder :D
+      </p>
+
+    
+      <h1 class="kopje">Hobby's</h1>
+      <ul>
+        <li>Gamen</li>
+        <li>Voetbal</li>
+        <li>Anime</li>
+      </ul>
+
+      <h1 class="kopje">Socials</h1>
+      <ul>
+        <li>discord: Mo#9694</li>
+        <li>league of legends: Liaris Freese</li>
+        <li>instagram: moo_ketwarid</li>
+        <li>linkedin: https://www.linkedin.com/in/mohamed-taissate-151739143/</li>
+      </ul>
+    
+    </article>
+
   </article>
 </section>
-  
 
-  <script src="/index.js"></script>
-
+<script src="/index.js"></script>
 
 <%- include('./partials/foot') %>

@@ -1,7 +1,4 @@
 
-:root{
-  
-}
 body {
   font-family:'Courier New', Courier, monospace;
   display:flex;
@@ -18,20 +15,19 @@ article {
   display:flex;
   flex-direction:column;
   background: black;
-  height: 80vh;
-  width: 60vw;
-  box-shadow:0 0 20px 20px rgba(0,0,0,.1);
+
   border-radius:1rem;
-  position: relative;
-  overflow: hidden;
 }
 img {
-  width:13em;
+  width: 20em;
   border-radius:20em;
   border:2px solid gold;
-margin: 1.5rem;
+  margin-left: 20px;
   
 }
+
+
+
 
 .naam-image{
   display: flex;
@@ -40,8 +36,7 @@ margin: 1.5rem;
   gap: 1rem;
 }
 
-h1 {
- 
+.naam {
   margin-top: 60px;
   font-size: 30px;
 }
@@ -56,6 +51,53 @@ h1 {
   list-style-type: none;
   border-radius: 15px;
   margin-right: 20px;
+  
+}
+
+#colorchange:hover{
+  animation-name: kleur;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes kleur {
+  0% {
+    background-color: gold;
+  }
+  50% {
+    background-color: aqua;
+  }
+  100% {
+    background-color: gold;
+  }
+}
+
+.button{
+  animation-name: jump;
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+}
+@keyframes jump {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-5rem) rotate(10deg);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-0.5rem) rotate(-2deg);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
 }
 
 a{
@@ -70,4 +112,26 @@ nav > ul{
   display: flex;
   justify-content: left;
   margin-right: 20px;
+}
+
+.about-article{
+    width: 60vw;
+}
+
+.content-about{
+  margin-left: 20px;
+}
+
+.kopje{
+  font-size: 30px;
+}
+
+
+
+@media (max-width: 1000px){
+  .naam-image{
+      display: flex;
+      flex-direction: column;
+      
+  }
 }
