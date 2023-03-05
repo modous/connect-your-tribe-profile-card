@@ -1,31 +1,35 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Mijn visitekaartje
 
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
   * [Gebruik](#gebruik)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+In deze opdracht was het de bedoeling om een eerder gemaakt visitekaartje uit week 1 opieuw te ontwerpen en bouwen. Ik heb deze opdracht voor het eerst met Node gewerkt. Je kan navigeren naar de home of about pagina.
+
+<img width="901" alt="image" src="https://user-images.githubusercontent.com/34092733/222955720-92e79816-e7ad-4059-8525-a4e87c9fb937.png">
+
+de about pagina:
+<img width="859" alt="image" src="https://user-images.githubusercontent.com/34092733/222955758-c42cd087-b9fd-4918-8208-2adbd7556a22.png">
+
+https://github.com/modous/connect-your-tribe-profile-card
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Ik heb HTML CSS en JS gebruikt. Ik heb gerbuik gemaakt van Keyframes en is mijn website ook responsive.
 
-## Installatie
-
-## Gebruik
-
-## Bronnen
-
+## Gebruikte technieken
+ Html
+ CSS
+ JS
+ NODE
+ 
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
