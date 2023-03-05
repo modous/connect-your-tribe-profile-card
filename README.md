@@ -17,6 +17,7 @@ In deze opdracht was het de bedoeling om een eerder gemaakt visitekaartje uit we
 <img width="901" alt="image" src="https://user-images.githubusercontent.com/34092733/222955720-92e79816-e7ad-4059-8525-a4e87c9fb937.png">
 
 de about pagina:
+
 <img width="859" alt="image" src="https://user-images.githubusercontent.com/34092733/222955758-c42cd087-b9fd-4918-8208-2adbd7556a22.png">
 
 https://github.com/modous/connect-your-tribe-profile-card
